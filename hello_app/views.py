@@ -37,6 +37,12 @@ def print_hello(request):
                 "summary": "a guy who is a boxer",
                 "success": True,
             },
+            {
+                "title": "Citizen Kane",
+                "year": 1941,
+                "summary": "not sure what this movie is about",
+                "success": False,
+            },
         ]
     }
     return render(request, "hello.html", movie_data)
