@@ -10,7 +10,7 @@ def print_hello(request):
             {
                 "title": "The Godfather",
                 "year": 1972,
-                "summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+                # "summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
                 "success": False,
             },
             {
@@ -28,7 +28,7 @@ def print_hello(request):
             {
                 "title": "Raging Bull",
                 "year": 1980,
-                "summary": "a guy who is a boxer",
+                # "summary": "a guy who is a boxer",
                 "success": False,
             },
             {

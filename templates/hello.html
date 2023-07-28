@@ -1,6 +1,6 @@
 {% for movie_list in movies %}
-<h1>Title: {{movie_list.title}} </h1>
-<p>Summary: {{movie_list.summary}} </p>
+<h1>Title: {{movie_list.title | upper}} </h1>
+<p>Summary: {{movie_list.summary | default:'No data available' }} </p>
 <h4>Year: {{movie_list.year}} </h4>
 {% if movie_list.success %}
 <p>Movie was a success</p>
